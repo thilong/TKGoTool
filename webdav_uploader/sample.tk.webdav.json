@@ -1,0 +1,12 @@
+{
+    "Server" : "http://sample.com/",
+    "RootPath" : "/subpath/",
+    "Uid":"auth name",
+    "Pwd":"auth password",
+    "Exclude" : [
+        "EndWith:pdf",
+        "Contains:csps",
+        "Contains:jsonsource"
+    ],
+    "Reboot" : "web url to call to reboot site"
+}
